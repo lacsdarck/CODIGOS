@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>plugin jQuery</title>
+ 
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+ <script type="text/javascript"  src="js/marquesina.jquery.js"></script>
+
+<link href="ccs/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section>
+<a href="#"id="anterior">&laquo;</a>
+  <div id="marco">
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+    </ul>
+  </div>
+  <a href="#"id="siguiente">&raquo;</a>
+</section>
+ <script type="text/javascript">
+    $(function() {
+        $('#marco').marquesina('#anterior', '#siguiente');
+    });
+    </script>
+</body>
+</html>

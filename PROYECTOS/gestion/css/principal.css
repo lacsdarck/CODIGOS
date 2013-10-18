@@ -1,0 +1,36 @@
+/* CSS Document */
+
+#agregado {
+	width:200px;
+	color:blue;
+}
+#modificado {
+	width:150px;
+	border: 10px solid white;
+	border-radius: 4px;
+	box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.3);
+	color:blue;
+}
+.boton {
+	border:5px solid #06C;
+	border-radius:2px;
+}
+a:link, a:active, a:visited {
+	text-decoration: none !important;
+}
+#atras
+{
+	border: 3px solid blue;
+	box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.3);
+	width:130px;
+	height:20px;
+	text-align:center;
+	}
+#botosito
+{
+	width:120px;
+	border: 10px solid blue;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+	}
+
